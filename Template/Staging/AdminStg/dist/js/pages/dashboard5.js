@@ -171,6 +171,8 @@ $(function () {
    * ------------
    * Create a world map with markers
    */
+
+    
   $('#world-map-markers').vectorMap({
     map: 'world_mill_en',
     normalizeFunction: 'polynomial',
@@ -200,7 +202,8 @@ $(function () {
         fill: '#00a65a',
         stroke: '#111'
       }
-    },
+    }
+      ,
     markers: [
       {latLng: [41.90, 12.45], name: 'Vatican City'},
       {latLng: [43.73, 7.41], name: 'Monaco'},
