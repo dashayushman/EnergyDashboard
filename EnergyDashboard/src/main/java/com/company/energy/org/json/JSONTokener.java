@@ -1,4 +1,4 @@
-package com.rev.localization.org.json;
+package com.company.energy.org.json;
 
 import java.io.BufferedReader;
 import java.io.IOException;

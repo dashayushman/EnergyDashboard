@@ -1,4 +1,4 @@
-package com.rev.localization.org.json;
+package com.company.energy.org.json;
 
 /*
 Copyright (c) 2008 JSON.org

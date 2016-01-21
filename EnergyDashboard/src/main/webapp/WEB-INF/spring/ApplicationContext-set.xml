@@ -20,7 +20,7 @@
 
 	<!-- Configurer that replaces ${...} placeholders with values from a properties file -->
 	<!-- (in this case, JDBC-related settings for the dataSource definition below) -->
-	<context:property-placeholder location="classpath:localization.properties"/>	
+	<context:property-placeholder location="classpath:energyDe.properties"/>	
 	<mvc:annotation-driven />
 	<!-- Service layer bean definitions -->
     
@@ -31,40 +31,15 @@
 		and @PersistenceUnit (if available).
 	-->
 	<context:annotation-config/>
-	<context:component-scan base-package="com.rev.localization"/>
 	
-   <bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
-  <property name="host" value="smtp.gmail.com" />
-  <property name="port" value="587" />
-  <property name="username" value="ayushmanmaku@gmail.com@gmail.com" />
-  <property name="password" value="noThing2" />
-  <property name="javaMailProperties">
-   <props>
-    <prop key="mail.debug">true</prop> 
-    <prop key="mail.smtp.auth">true</prop>
-    <prop key="mail.smtp.starttls.enable">true</prop>
-    <prop key="mail.mime.charset">UTF-8</prop>
-    <prop key="mail.transport.protocol">smtp</prop>
-   </props>
-  </property>
- </bean>
+	<context:component-scan base-package="com.company.energy" />
 
- <bean id="mailer" class="com.rev.localization.mailbean.Mailer">
-  <property name="mailSender" ref="mailSender" />
-  <property name="velocityEngine" ref="velocityEngine"/>
- </bean>
+	
+   
 
-  <bean id="velocityEngine"
- class="org.springframework.ui.velocity.VelocityEngineFactoryBean">
-    <property name="velocityProperties">
-        <props>
-            <prop key="resource.loader">class</prop>
-            <prop key="class.resource.loader.class">
-                org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
-            </prop>
-        </props>
-    </property>
-</bean>
+
+
+  
 
 	
 </beans>

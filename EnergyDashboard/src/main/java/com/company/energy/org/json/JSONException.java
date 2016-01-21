@@ -1,4 +1,4 @@
-package com.rev.localization.org.json;
+package com.company.energy.org.json;
 
 /**
  * The JSONException is thrown by the JSON.org classes when things are amiss.
