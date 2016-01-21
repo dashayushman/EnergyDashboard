@@ -65,18 +65,13 @@
                           <label for="exampleInputFile">File input</label>
                           <input type="file" id="exampleInputFile">
                         </div>
-                        <div class="checkbox">
-<!--
-                          <label>
-                            <input type="checkbox">I am feeling lucky!
-                          </label>
--->
-                        </div>
+                        
                       </div><!-- /.box-body -->
 
                       <div class="box-footer">
                         <button type="submit" class="btn btn-primary">Submit</button>
-                        <span id="idErrorMessage"></span>
+                        <span id="idErrorMessage" style="color: red;margin-left: 10px;"></span>
+                        <span id="idSuccessMessage" style="color: green;margin-left: 10px;"></span>
                       </div>
                     </form>
                   </div><!-- /.box -->
