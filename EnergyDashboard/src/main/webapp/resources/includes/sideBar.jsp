@@ -28,19 +28,19 @@
 		<!-- sidebar menu: : style can be found in sidebar.less -->
 		<ul class="sidebar-menu">
 			<li class="header"></li>
-			<li class="active treeview"><a href="home.html"> <i
+			<li class="active treeview"><a href="home"> <i
 					class="fa fa-dashboard"></i> <span>Overview</span>
 			</a></li>
-			<li class=" treeview"><a href="compareData.html"> <i
+			<li class=" treeview"><a href="compareData"> <i
 					class="fa fa-area-chart"></i> <span>Compare Consumption</span>
 			</a></li>
-			<li><a href="uploadData.html"> <i class="fa fa-cloud-upload"></i>
+			<li><a href="uploadData"> <i class="fa fa-cloud-upload"></i>
 					<span>Upload Data</span>
 			</a></li>
-			<li class="treeview"><a href="geoPredict.html"> <i
+			<li class="treeview"><a href="geoPredict"> <i
 					class="fa fa-globe"></i> <span>GeoLocation Data</span>
 			</a></li>
-			<li class="treeview"><a href="predict.html"> <i
+			<li class="treeview"><a href="predict"> <i
 					class="fa fa-rocket"></i> <span>Predict Consumption</span><small
 					class="label pull-right bg-green">new</small>
 			</a></li>
@@ -48,7 +48,7 @@
 			<li><a href="#"> <i class="fa fa-envelope"></i> <span>Mailbox</span>
 					<small class="label pull-right bg-yellow">12</small>
 			</a></li>
-			<li class="treeview"><a href="profile.html"> <i
+			<li class="treeview"><a href="profile"> <i
 					class="fa fa-home"></i> <span>Profile</span>
 			</a></li>
 		</ul>

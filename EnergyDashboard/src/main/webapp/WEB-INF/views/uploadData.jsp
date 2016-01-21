@@ -4,9 +4,11 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>AdminLTE 2 | General Form Elements</title>
+  
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.5 -->
+  <link rel="shortcut icon" href="/dist/img/favicon.png">
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -28,170 +30,8 @@
       <body class="hold-transition skin-blue sidebar-mini">
         <div class="wrapper">
 
-         <header class="main-header">
-
-        <!-- Logo -->
-        <a href="home.html" class="logo">
-          <!-- mini logo for sidebar mini 50x50 pixels -->
-          <span class="logo-mini"><b>E</b>DE</span>
-          <!-- logo for regular state and mobile devices -->
-          <span class="logo-lg"><b>Energy</b>DE</span>
-        </a>
-
-        <!-- Header Navbar: style can be found in header.less -->
-        <nav class="navbar navbar-static-top" role="navigation">
-          <!-- Sidebar toggle button-->
-          <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
-            <span class="sr-only">Toggle navigation</span>
-          </a>
-          <!-- Navbar Right Menu -->
-          <div class="navbar-custom-menu">
-            <ul class="nav navbar-nav">
-              <!-- Messages: style can be found in dropdown.less-->
-             
-              <!-- Notifications: style can be found in dropdown.less -->
-              <li class="dropdown notifications-menu">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                  <i class="fa fa-bell-o"></i>
-                  <span class="label label-warning">2</span>
-                </a>
-                <ul class="dropdown-menu">
-                  <li class="header">You have 2 notifications</li>
-                  <li>
-                    <!-- inner menu: contains the actual data -->
-                    <ul class="menu">
-                      <li>
-                        <a href="#">
-                          <i class="fa fa-users text-aqua"></i> You have new friends to compare data
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="fa fa-warning text-yellow"></i> Update Profile for better predictions
-                        </a>
-                      </li>
-                     
-                     
-                    </ul>
-                  </li>
-                  <li class="footer"><a href="#">View all</a></li>
-                </ul>
-              </li>
-            
-              <!-- User Account: style can be found in dropdown.less -->
-              <li class="dropdown user user-menu">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                  <img src="dist/img/avatar04.png" class="user-image" alt="User Image">
-                  <span class="hidden-xs">Rajveer Shringi</span>
-                </a>
-                <ul class="dropdown-menu">
-                  <!-- User image -->
-                  <li class="user-header">
-                    <img src="dist/img/avatar04.png" class="img-circle" alt="User Image">
-                    <p>
-                      Rajveer Shringi
-                      <small>Member since Nov. 2012</small>
-                    </p>
-                  </li>
-                  <!-- Menu Body -->
-                  <li class="user-body">
-                    <div class="col-xs-4 text-center">
-                      <a href="#">Followers</a>
-                    </div>
-                    
-                    <div class="col-xs-4 text-center" style="float:right;">
-                      <a href="#">Friends</a>
-                    </div>
-                  </li>
-                  <!-- Menu Footer-->
-                  <li class="user-footer">
-                    <div class="pull-left">
-                      <a href="#" class="btn btn-default btn-flat">Profile</a>
-                    </div>
-                    <div class="pull-right">
-                      <a href="index.html" class="btn btn-default btn-flat">Sign out</a>
-                    </div>
-                  </li>
-                </ul>
-              </li>
-              <!-- Control Sidebar Toggle Button -->
-              
-            </ul>
-          </div>
-
-        </nav>
-      </header>
-      <!-- Left side column. contains the logo and sidebar -->
-       <aside class="main-sidebar">
-                  <!-- sidebar: style can be found in sidebar.less -->
-                  <section class="sidebar">
-                    <!-- Sidebar user panel -->
-                    <div class="user-panel">
-                      <div class="pull-left image">
-                        <img src="dist/img/avatar04.png" class="img-circle" alt="User Image">
-                      </div>
-                      <div class="pull-left info">
-                        <p>Rajveer Shringi</p>
-                        <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
-                      </div>
-                    </div>
-                    <!-- search form -->
-                    <form action="#" method="get" class="sidebar-form">
-                      <div class="input-group">
-                        <input type="text" name="q" class="form-control" placeholder="Search...">
-                        <span class="input-group-btn">
-                          <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i></button>
-                        </span>
-                      </div>
-                    </form>
-                    <!-- /.search form -->
-                    <!-- sidebar menu: : style can be found in sidebar.less -->
-                    <ul class="sidebar-menu">
-                      <li class="header"></li>
-                      <li class=" treeview">
-                        <a href="home.html">
-                          <i class="fa fa-dashboard"></i> <span>Overview</span>
-                        </a>
-                      </li>
-                      <li class="treeview">
-                        <a href="compareData.html">
-                          <i class="fa fa-area-chart"></i>
-                          <span>Compare Consumption</span>
-                        </a>
-                      </li>
-                      <li class="active treeview">
-                        <a href="uploadData.html">
-                          <i class="fa fa-cloud-upload"></i> <span>Upload Data</span> 
-                        </a>
-                      </li>
-                      <li class="treeview">
-                        <a href="geoPredict.html">
-                          <i class="fa fa-globe"></i>
-                          <span>GeoLocation Data</span>
-                        </a>
-                      </li>
-                      <li class="treeview">
-                        <a href="predict.html">
-                          <i class="fa fa-rocket"></i>
-                          <span>Predict Consumption</span><small class="label pull-right bg-green">new</small>
-                        </a>
-                      </li>
-                      
-                      <li>
-                        <a href="#">
-                          <i class="fa fa-envelope"></i> <span>Mailbox</span>
-                          <small class="label pull-right bg-yellow">12</small>
-                        </a>
-                      </li>
-                      <li class="treeview">
-                        <a href="profile.html">
-                          <i class="fa fa-home"></i> <span>Profile</span>
-                        </a>
-                      </li>
-                    </ul>
-                  </section>
-                  <!-- /.sidebar -->
-                </aside>
+        <%@ include file="../../resources/includes/header.jsp"%>
+		<%@ include file="../../resources/includes/sideBar.jsp"%>
           <!-- Content Wrapper. Contains page content -->
           <div class="content-wrapper">
             <!-- Content Header (Page header) -->
@@ -210,25 +50,17 @@
             <section class="content">
               <div class="row">
                 <!-- left column -->
-                <div class="col-md-10">
+                <div class="col-md-6">
                   <!-- general form elements -->
-                  <div class="box box-primary">
+                  <div class="box box-primary" id="idUploadDataBox">
                     <div class="box-header with-border">
                       <h3 class="box-title">Upload</h3>
                     </div><!-- /.box-header -->
                     <!-- form start -->
-                    <form role="form">
+                    <form role="form" id="idUploadForm">
                       <div class="box-body">
                         <!-- select -->
-<!--
-                        <div class="form-group">
-                          <label>Select</label>
-                          <select class="form-control">
-                            <option>Upload Personal consumption data</option>
-                            <option>Upload Geographical consumption data</option>
-                          </select>
-                        </div>
--->
+
                         <div class="form-group">
                           <label for="exampleInputFile">File input</label>
                           <input type="file" id="exampleInputFile">
@@ -244,6 +76,7 @@
 
                       <div class="box-footer">
                         <button type="submit" class="btn btn-primary">Submit</button>
+                        <span id="idErrorMessage"></span>
                       </div>
                     </form>
                   </div><!-- /.box -->
@@ -251,188 +84,94 @@
 
 
                 </div><!--/.col (left) -->
+               <div class="col-md-6">
+								<!-- PRODUCT LIST -->
+								<div class="box box-primary" id="idRecentDataBox">
+									<div class="box-header with-border">
+										<h3 class="box-title">Recently Added Data</h3>
+										<div class="box-tools pull-right">
+											<button class="btn btn-box-tool" data-widget="collapse">
+												<i class="fa fa-minus"></i>
+											</button>
+											<!--                                  <button class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>-->
+										</div>
+									</div>
+									<!-- /.box-header -->
+									<div class="box-body">
+										<ul class="products-list product-list-in-box">
+											<li class="item">
+												<div class="product-img">
+													<img src="dist/img/default-50x50.gif" alt="Product Image">
+												</div>
+												<div class="product-info">
+													<a href="javascript::;" class="product-title">Data File
+														1<span class="label label-warning pull-right">3.2
+															MB</span>
+													</a> <span class="product-description"> Saturday, 16th
+														Jan 09:15am </span>
+												</div>
+											</li>
+											<!-- /.item -->
+											<li class="item">
+												<div class="product-img">
+													<!--                                        <i class="fa fa-dashboard"></i>-->
+													<img src="dist/img/default-50x50.gif" alt="Product Image">
+												</div>
+												<div class="product-info">
+													<a href="javascript::;" class="product-title">Data File
+														2 <span class="label label-info pull-right">2.64 MB</span>
+													</a> <span class="product-description"> Sunday, 17th Jan
+														9:15pm </span>
+												</div>
+											</li>
+											<!-- /.item -->
+											<li class="item">
+												<div class="product-img">
+													<img src="dist/img/default-50x50.gif" alt="Product Image">
+												</div>
+												<div class="product-info">
+													<a href="javascript::;" class="product-title">Data File
+														3<span class="label label-danger pull-right">2.15
+															MB</span>
+													</a> <span class="product-description"> Thursday, 14th
+														Jan 11:15pm </span>
+												</div>
+											</li>
+											<!-- /.item -->
+											<li class="item">
+												<div class="product-img">
+													<img src="dist/img/default-50x50.gif" alt="Product Image">
+												</div>
+												<div class="product-info">
+													<a href="javascript::;" class="product-title">Data File
+														4 <span class="label label-success pull-right">1.8
+															MB</span>
+													</a> <span class="product-description"> Sunday, 10th Jan
+														4:15pm </span>
+												</div>
+											</li>
+											<!-- /.item -->
+										</ul>
+									</div>
+									<!-- /.box-body -->
+									<div class="box-footer text-center">
+										<a href="javascript::;" class="uppercase">View All Files</a>
+									</div>
+									<!-- /.box-footer -->
+								</div>
+								<!-- /.box -->
+							</div>
                 <!-- right column -->
-                <div class="col-md-10">
-
-                </form>
-              </div><!-- /.box-body -->
+               
             </div><!-- /.box -->
+            </section>
           </div><!--/.col (right) -->
-        </div>   <!-- /.row -->
-      </section><!-- /.content -->
-    </div><!-- /.content-wrapper -->
-    <footer class="main-footer">
-      <div class="pull-right hidden-xs">
-        <b>Version</b> 1.0
-      </div>
-      <strong>Copyright &copy; WS2016<a href="https://github.com/dashayushman/EnergyDashboard"> EnergyDE</a>.</strong> All rights reserved.
-    </footer>
+       
+     
+   
+		<%@ include file="../../resources/includes/footer.jsp"%>
+   
 
-    <!-- Control Sidebar -->
-    <aside class="control-sidebar control-sidebar-dark">
-      <!-- Create the tabs -->
-      <ul class="nav nav-tabs nav-justified control-sidebar-tabs">
-        <li><a href="#control-sidebar-home-tab" data-toggle="tab"><i class="fa fa-home"></i></a></li>
-        <li><a href="#control-sidebar-settings-tab" data-toggle="tab"><i class="fa fa-gears"></i></a></li>
-      </ul>
-      <!-- Tab panes -->
-      <div class="tab-content">
-        <!-- Home tab content -->
-        <div class="tab-pane" id="control-sidebar-home-tab">
-          <h3 class="control-sidebar-heading">Recent Activity</h3>
-          <ul class="control-sidebar-menu">
-            <li>
-              <a href="javascript::;">
-                <i class="menu-icon fa fa-birthday-cake bg-red"></i>
-                <div class="menu-info">
-                  <h4 class="control-sidebar-subheading">Langdon's Birthday</h4>
-                  <p>Will be 23 on April 24th</p>
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="javascript::;">
-                <i class="menu-icon fa fa-user bg-yellow"></i>
-                <div class="menu-info">
-                  <h4 class="control-sidebar-subheading">Frodo Updated His Profile</h4>
-                  <p>New phone +1(800)555-1234</p>
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="javascript::;">
-                <i class="menu-icon fa fa-envelope-o bg-light-blue"></i>
-                <div class="menu-info">
-                  <h4 class="control-sidebar-subheading">Nora Joined Mailing List</h4>
-                  <p>nora@example.com</p>
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="javascript::;">
-                <i class="menu-icon fa fa-file-code-o bg-green"></i>
-                <div class="menu-info">
-                  <h4 class="control-sidebar-subheading">Cron Job 254 Executed</h4>
-                  <p>Execution time 5 seconds</p>
-                </div>
-              </a>
-            </li>
-          </ul><!-- /.control-sidebar-menu -->
-
-          <h3 class="control-sidebar-heading">Tasks Progress</h3>
-          <ul class="control-sidebar-menu">
-            <li>
-              <a href="javascript::;">
-                <h4 class="control-sidebar-subheading">
-                  Custom Template Design
-                  <span class="label label-danger pull-right">70%</span>
-                </h4>
-                <div class="progress progress-xxs">
-                  <div class="progress-bar progress-bar-danger" style="width: 70%"></div>
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="javascript::;">
-                <h4 class="control-sidebar-subheading">
-                  Update Resume
-                  <span class="label label-success pull-right">95%</span>
-                </h4>
-                <div class="progress progress-xxs">
-                  <div class="progress-bar progress-bar-success" style="width: 95%"></div>
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="javascript::;">
-                <h4 class="control-sidebar-subheading">
-                  Laravel Integration
-                  <span class="label label-warning pull-right">50%</span>
-                </h4>
-                <div class="progress progress-xxs">
-                  <div class="progress-bar progress-bar-warning" style="width: 50%"></div>
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="javascript::;">
-                <h4 class="control-sidebar-subheading">
-                  Back End Framework
-                  <span class="label label-primary pull-right">68%</span>
-                </h4>
-                <div class="progress progress-xxs">
-                  <div class="progress-bar progress-bar-primary" style="width: 68%"></div>
-                </div>
-              </a>
-            </li>
-          </ul><!-- /.control-sidebar-menu -->
-
-        </div><!-- /.tab-pane -->
-        <!-- Stats tab content -->
-        <div class="tab-pane" id="control-sidebar-stats-tab">Stats Tab Content</div><!-- /.tab-pane -->
-        <!-- Settings tab content -->
-        <div class="tab-pane" id="control-sidebar-settings-tab">
-          <form method="post">
-            <h3 class="control-sidebar-heading">General Settings</h3>
-            <div class="form-group">
-              <label class="control-sidebar-subheading">
-                Report panel usage
-                <input type="checkbox" class="pull-right" checked>
-              </label>
-              <p>
-                Some information about this general settings option
-              </p>
-            </div><!-- /.form-group -->
-
-            <div class="form-group">
-              <label class="control-sidebar-subheading">
-                Allow mail redirect
-                <input type="checkbox" class="pull-right" checked>
-              </label>
-              <p>
-                Other sets of options are available
-              </p>
-            </div><!-- /.form-group -->
-
-            <div class="form-group">
-              <label class="control-sidebar-subheading">
-                Expose author name in posts
-                <input type="checkbox" class="pull-right" checked>
-              </label>
-              <p>
-                Allow the user to show his name in blog posts
-              </p>
-            </div><!-- /.form-group -->
-
-            <h3 class="control-sidebar-heading">Chat Settings</h3>
-
-            <div class="form-group">
-              <label class="control-sidebar-subheading">
-                Show me as online
-                <input type="checkbox" class="pull-right" checked>
-              </label>
-            </div><!-- /.form-group -->
-
-            <div class="form-group">
-              <label class="control-sidebar-subheading">
-                Turn off notifications
-                <input type="checkbox" class="pull-right">
-              </label>
-            </div><!-- /.form-group -->
-
-            <div class="form-group">
-              <label class="control-sidebar-subheading">
-                Delete chat history
-                <a href="javascript::;" class="text-red pull-right"><i class="fa fa-trash-o"></i></a>
-              </label>
-            </div><!-- /.form-group -->
-          </form>
-        </div><!-- /.tab-pane -->
-      </div>
-    </aside><!-- /.control-sidebar -->
-      <!-- Add the sidebar's background. This div must be placed
-      immediately after the control sidebar -->
-      <div class="control-sidebar-bg"></div>
     </div><!-- ./wrapper -->
 
     <!-- jQuery 2.1.4 -->
@@ -445,5 +184,6 @@
     <script src="dist/js/app.min.js"></script>
     <!-- AdminLTE for demo purposes -->
     <script src="dist/js/demo.js"></script>
+    <script src="dist/js/pages/uploadData.js"></script>
   </body>
   </html>
