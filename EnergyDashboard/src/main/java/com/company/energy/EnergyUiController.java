@@ -1,7 +1,5 @@
 package com.company.energy;
 
-import java.text.DateFormat;
-import java.util.Date;
 import java.util.Locale;
 
 import org.slf4j.Logger;
@@ -23,11 +21,58 @@ public class EnergyUiController {
 	 * Simply selects the home view to render by returning its name.
 	 */
 	@RequestMapping(value = "/", method = RequestMethod.GET)
+	public String index(Locale locale, Model model) {
+		logger.info("Login Page");
+		
+		
+		return "index";
+	}
+	
+	@RequestMapping(value = "/home", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
-		logger.info("Welcome home! The client locale is {}.", locale);
+		logger.info("Home Page");
 		
 		
 		return "home";
+	}
+	
+	@RequestMapping(value = "/uploadData", method = RequestMethod.GET)
+	public String uploadData(Locale locale, Model model) {
+		logger.info("Update Data Page");
+		
+		
+		return "uploadData";
+	}
+	
+	@RequestMapping(value = "/compareData", method = RequestMethod.GET)
+	public String compareData(Locale locale, Model model) {
+		logger.info("Compare Data Page");
+		
+		
+		return "compareData";
+	}
+	
+	@RequestMapping(value = "/geoPredict", method = RequestMethod.GET)
+	public String geoPredict(Locale locale, Model model) {
+		logger.info("Geo Predict Page");
+		return "geoPredict";
+	}
+	
+	@RequestMapping(value = "/profile", method = RequestMethod.GET)
+	public String profile(Locale locale, Model model) {
+		logger.info("Geo Predict Page");
+		return "profile";
+	}
+	@RequestMapping(value = "/register", method = RequestMethod.GET)
+	public String register(Locale locale, Model model) {
+		logger.info("Geo Predict Page");
+		return "register";
+	}
+	
+	@RequestMapping(value = "/predict", method = RequestMethod.GET)
+	public String predict(Locale locale, Model model) {
+		logger.info("Geo Predict Page");
+		return "predict";
 	}
 	
 }
