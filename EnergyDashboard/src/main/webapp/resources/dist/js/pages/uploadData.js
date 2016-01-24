@@ -88,5 +88,5 @@ $( "#idUploadForm" ).submit(function( event ) {
 			});
 		}
 	 
-	 removeLoader("idUploadDataBox");
+//	 removeLoader("idUploadDataBox");
 });

@@ -96,7 +96,7 @@
 										<ul class="products-list product-list-in-box">
 											<li class="item">
 												<div class="product-img">
-													<img src="dist/img/default-50x50.gif" alt="Product Image">
+													<img src="dist/img/Text_File_Icon.png" alt="Product Image">
 												</div>
 												<div class="product-info">
 													<a href="javascript::;" class="product-title">Data File
@@ -110,7 +110,7 @@
 											<li class="item">
 												<div class="product-img">
 													<!--                                        <i class="fa fa-dashboard"></i>-->
-													<img src="dist/img/default-50x50.gif" alt="Product Image">
+													<img src="dist/img/Text_File_Icon.png" alt="Product Image">
 												</div>
 												<div class="product-info">
 													<a href="javascript::;" class="product-title">Data File
@@ -122,7 +122,7 @@
 											<!-- /.item -->
 											<li class="item">
 												<div class="product-img">
-													<img src="dist/img/default-50x50.gif" alt="Product Image">
+													<img src="dist/img/Text_File_Icon.png" alt="Product Image">
 												</div>
 												<div class="product-info">
 													<a href="javascript::;" class="product-title">Data File
@@ -135,7 +135,7 @@
 											<!-- /.item -->
 											<li class="item">
 												<div class="product-img">
-													<img src="dist/img/default-50x50.gif" alt="Product Image">
+													<img src="dist/img/Text_File_Icon.png" alt="Product Image">
 												</div>
 												<div class="product-info">
 													<a href="javascript::;" class="product-title">Data File

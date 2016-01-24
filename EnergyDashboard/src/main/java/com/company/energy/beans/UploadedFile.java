@@ -5,7 +5,7 @@ public class UploadedFile {
 	private byte[] bytes;
 	private String name;
 	private String type;
-	private Integer domain;
+	private String fileContent;
 	private String fileDescription;
 	private String lastModifiedDate;
 
@@ -17,16 +17,16 @@ public class UploadedFile {
 		this.lastModifiedDate = lastModifiedDate;
 	}
 
-	public Integer getDomain() {
-		return domain;
+	public String getFileContent() {
+		return fileContent;
+	}
+
+	public void setFileContent(String fileContent) {
+		this.fileContent = fileContent;
 	}
 
 	public String getFileDescription() {
 		return fileDescription;
-	}
-
-	public void setDomain(Integer domain) {
-		this.domain = domain;
 	}
 
 	public void setFileDescription(String fileDescription) {
